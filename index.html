@@ -1,58 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Assignment-3</title>
-    <!-- tailwind CSS link start -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@2.47.1/dist/full.css"rel="stylesheet"type="text/css"/>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css"rel="stylesheet"type="text/css"/>
-    <!-- tailwind CSS link ends -->
-  </head>
-  <body>
-    <header class="max-w-screen-xl mx-auto">
-      <!-- navbar start -->
-      <nav>
-        <div class="navbar bg-base-100">
-          <div class="navbar-start">
-            <div class="dropdown">
-              <label tabindex="0" class="btn btn-ghost lg:hidden">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-                  stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-                </svg>
-              </label>
-              <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
-                <li><a>Item 1</a></li>
-                <li tabindex="0">
-                  <a class="justify-between">
-                    Parent
-                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                      viewBox="0 0 24 24">
-                      <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
-                    </svg>
-                  </a>
-                  <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
-                </li>
-                <li><a>Item 3</a></li>
-              </ul>
-            </div>
-            <img class="cursor-pointer" src="./images/logo2.png" alt="logo">
-          </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-  
-              <li><a>Home</a></li>
-  
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment-3</title>
+  <!-- tailwind CSS link start -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@2.47.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2/dist/tailwind.min.css" rel="stylesheet" type="text/css" />
+  <!-- tailwind CSS link ends -->
+</head>
+<body>
+  <header class="max-w-screen-xl mx-auto">
+    <!-- navbar start -->
+    <nav>
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <label tabindex="0" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </label>
+            <ul tabindex="0" class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Item 1</a></li>
               <li tabindex="0">
-                <a>
-                  Services
-                  <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                <a class="justify-between">
+                  Parent
+                  <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24">
+                    <path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" />
                   </svg>
                 </a>
                 <ul class="p-2">
@@ -60,87 +38,112 @@
                   <li><a>Submenu 2</a></li>
                 </ul>
               </li>
-  
-              <li tabindex="0">
-                <a>
-                  Cases
-                  <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                  </svg>
-                </a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-  
-              <li tabindex="0">
-                <a>
-                  Blog
-                  <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                  </svg>
-                </a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
-  
-              <li tabindex="0">
-                <a>
-                  Contact Us
-                  <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
-                    <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
-                  </svg>
-                </a>
-                <ul class="p-2">
-                  <li><a>Submenu 1</a></li>
-                  <li><a>Submenu 2</a></li>
-                </ul>
-              </li>
+              <li><a>Item 3</a></li>
             </ul>
           </div>
-          <div class="navbar-end">
-  
-            <label for="my-modal-6" class="bg-indigo-400 text-white p-4 font-semibold rounded-xl cursor-pointer">Free
-              Consultation</label>
-  
-            <!-- Modals -->
-            <input type="checkbox" id="my-modal-6" class="modal-toggle" />
-            <div class="modal modal-bottom sm:modal-middle">
-              <div class="modal-box">
-                <h3 class="font-bold text-lg">Hello random Internet user!</h3>
-                <p class="py-4">Don't be scared. The things out there that are unknown aren't scary in themselves. They are just unknown at the moment. Take the time to know them before you list them as scary. Then the world will be a much less scary place for you.free!</p>
-                <div class="modal-action">
-                  <label for="my-modal-6" class="bg-indigo-400 btn border-0">Close</label>
-                </div>
+          <img class="cursor-pointer" src="./images/logo2.png" alt="logo">
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+
+            <li><a>Home</a></li>
+
+            <li tabindex="0">
+              <a>
+                Services
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                </svg>
+              </a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+
+            <li tabindex="0">
+              <a>
+                Cases
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                </svg>
+              </a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+
+            <li tabindex="0">
+              <a>
+                Blog
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                </svg>
+              </a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+
+            <li tabindex="0">
+              <a>
+                Contact Us
+                <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                  <path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
+                </svg>
+              </a>
+              <ul class="p-2">
+                <li><a>Submenu 1</a></li>
+                <li><a>Submenu 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+
+          <label for="my-modal-6" class="bg-indigo-400 text-white p-4 font-semibold rounded-xl cursor-pointer">Free
+            Consultation</label>
+
+          <!-- Modals -->
+          <input type="checkbox" id="my-modal-6" class="modal-toggle" />
+          <div class="modal modal-bottom sm:modal-middle">
+            <div class="modal-box">
+              <h3 class="font-bold text-lg">Hello random Internet user!</h3>
+              <p class="py-4">Don't be scared. The things out there that are unknown aren't scary in themselves. They
+                are just unknown at the moment. Take the time to know them before you list them as scary. Then the world
+                will be a much less scary place for you.free!</p>
+              <div class="modal-action">
+                <label for="my-modal-6" class="bg-indigo-400 btn border-0">Close</label>
               </div>
             </div>
           </div>
         </div>
-      </nav>
-      <!-- navbar ends -->
-    </header>
-    
-    <main class="max-w-screen-xl mx-auto">
+      </div>
+    </nav>
+    <!-- navbar ends -->
+  </header>
 
-      <!-- Banner -->
-      <div class="m-2">
-        <div style="background-image: url('./images/banner.png');" class="w-full rounded-xl bg-no-repeat">
-          <h2 class=" text-center text-xl lg:text-5xl font-bold mt-2 text-white pt-20">We Provide Effective <br> Legal
-            Solutions</h2>
-          <p class="text-center lg:w-1/2  mx-auto text-white pt-10">There are many variations of passages of Lorem Ipsum
-            available, but the majority have suffered alteration in some form, by injected humour.</p>
-          <div class="flex justify-center pt-10 pb-28">
-            <input type="text" placeholder="Type here" class="input lg:w-1/3" />
-            <button class="text-white text-xl font-semibold bg-indigo-400 p-2 px-3 ml-4 rounded-xl">Search</button>
-          </div>
+  <main class="max-w-screen-xl mx-auto">
+
+    <!-- Banner -->
+    <div class="m-2">
+      <div style="background-image: url('./images/banner.png');" class="w-full rounded-xl bg-no-repeat">
+        <h2 class=" text-center text-xl lg:text-5xl font-bold mt-2 text-white pt-20">We Provide Effective <br> Legal
+          Solutions</h2>
+        <p class="text-center lg:w-1/2  mx-auto text-white pt-10">There are many variations of passages of Lorem Ipsum
+          available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <div class="flex justify-center pt-10 pb-28">
+          <input type="text" placeholder="Type here" class="input lg:w-1/3" />
+          <button class="text-white text-xl font-semibold bg-indigo-400 p-2 px-3 ml-4 rounded-xl">Search</button>
         </div>
-        <!-- practice area   -->
+      </div>
+      <!-- practice area   -->
       <div class="mt-20">
         <p class="text-3xl text-center font-bold">The Legal Practice Area</p>
-        <p class="lg:w-1/2 mx-auto mt-4 text-center">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+        <p class="lg:w-1/2 mx-auto mt-4 text-center">There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected humour.</p>
       </div>
 
       <!-- cart -->
@@ -194,7 +197,7 @@
           <img class="mx-auto" src="./images/Frame.png" alt="">
         </div>
       </div>
-        <!-- Practice section end -->
+      <!-- Practice section end -->
 
       <!-- Review Section start  -->
       <div class="mt-20">
@@ -214,10 +217,12 @@
                 <img class="w-1/6 mx-auto rounded-full" src="https://i.ibb.co/FBwXGv3/Male01.jpg" alt="Male01" />
                 <p class="text-xl font-bold text-white text-center">Nahid Arman</p>
                 <p class="text-lg  text-white text-center">Web Developer</p>
-                  <p class="text-center truncate">
-                    Message feedback is a method of checking the accuracy of data transmission. The received data is returned to the sending end for comparison with the original data, which is stored there for this purpose. Also called information feedback and loop checking.</p>
+                <p class="text-center truncate">
+                  Message feedback is a method of checking the accuracy of data transmission. The received data is
+                  returned to the sending end for comparison with the original data, which is stored there for this
+                  purpose. Also called information feedback and loop checking.</p>
               </div>
-                
+
               <a href="#slide2" class="btn btn-circle">❯</a>
             </div>
           </div>
@@ -230,8 +235,10 @@
                 <img class="w-1/6 mx-auto rounded-full" src="https://i.ibb.co/FBwXGv3/Male01.jpg" alt="Male01" />
                 <p class="text-xl font-bold text-white text-center">Nahid Arman</p>
                 <p class="text-lg  text-white text-center">Web Designer</p>
-                  <p class="text-center truncate">
-                    Message feedback is a method of checking the accuracy of data transmission. The received data is returned to the sending end for comparison with the original data, which is stored there for this purpose. Also called information feedback and loop checking.</p>
+                <p class="text-center truncate">
+                  Message feedback is a method of checking the accuracy of data transmission. The received data is
+                  returned to the sending end for comparison with the original data, which is stored there for this
+                  purpose. Also called information feedback and loop checking.</p>
               </div>
               <a href="#slide3" class="btn btn-circle">❯</a>
             </div>
@@ -245,55 +252,130 @@
                 <img class="w-1/6 mx-auto rounded-full" src="https://i.ibb.co/FBwXGv3/Male01.jpg" alt="Male01" />
                 <p class="text-xl font-bold text-white text-center">Nahid Arman</p>
                 <p class="text-lg  text-white text-center">Web Developer</p>
-                  <p class="text-center truncate">Solution-driven web developer adept at contributing to highly collaborative work environment and finding solutions. Proven experience developing consumer-focused websites using HTML, CSS, PHP and JavaScript. </p>
-              </div>  
+                <p class="text-center truncate">Solution-driven web developer adept at contributing to highly
+                  collaborative work environment and finding solutions. Proven experience developing consumer-focused
+                  websites using HTML, CSS, PHP and JavaScript. </p>
+              </div>
 
               <a href="#slide1" class="btn btn-circle">❯</a>
             </div>
           </div>
-          
+
         </div>
       </div>
       <!-- Review Section end  -->
 
+      <!-- QNA Section start  -->
+      <div class="mt-20">
+        <p class="text-3xl text-center font-bold">Frequently Asked Any Questions</p>
+        <p class="lg:w-2/3 mx-auto mt-4 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          Exercitationem accusamus iusto quaerat nulla ipsam laboriosam, sit necessitatibus, tempore quibusdam possimus
+          repellendus non atque error obcaecati corrupti cumque quae, ducimus tenetur?</p>
+      </div>
 
-        
-    <!-- <footer> -->
-  <footer class=" p-10 bg-black text-white ">
-    <div class="footer max-w-screen-xl mx-auto">
-      <div>
-        <span class="footer-title"><img src="./images/logo.png" alt=""></span>
-        <a class="link link-hover leading-7	">Don't be scared. The things out there <br> that are unknown aren't scary in <br> themselves. They are just unknown <br> at the moment. Take the time to <br> know them before you list them as scary.</a>
-      </div>
-      <div>
-        <span class="footer-title">Usefull Link</span>
-        <a class="link link-hover">About us</a>
-        <a class="link link-hover">Contact</a>
-        <a class="link link-hover">Jobs</a>
-        <a class="link link-hover">Press kit</a>
-      </div>
-      <div>
-        <span class="footer-title">Contact Now</span>
-        <a class="link link-hover">Terms of use</a>
-        <a class="link link-hover">Privacy policy</a>
-        <a class="link link-hover">Cookie policy</a>
-      </div>
-      <div>
-        <span class="footer-title">Subscribe</span>
-        <div class="form-control w-80">
-          <p class="label-text text-white leading-7 pb-5">Subscribe for our latest & Articles. We Won’t Give You Spam Mails</p>
-          <label class="label">
-            <span class="label-text text-white">Enter your email address</span>
-          </label>
-          <div class="relative">
-            <input type="text" placeholder="Enter your email address" class="input input-bordered w-full pr-16" />
-            <p class="btn btn-primary absolute top-0 right-0 rounded-l-none">
-              <img src="./images/email.png" alt="">
-            </p>
+      <div class="lg:flex mt-10">
+        <div class="flex flex-col justify-center gap-2">
+          <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+            <div class="collapse-title text-xl font-medium bg-base-200">
+              What is the Difference between flexbox and grid?
+            </div>
+            <div class="collapse-content bg-base-200">
+              <p class="max-w-screen-sm">Flexbox and grid are both CSS layout modules that provide ways to align and distribute elements on a webpage. However, they are designed for different purposes and have different features.
+
+                Flexbox is used to create one-dimensional layouts, where elements are lined up in a row or a column. It is best suited for small-scale layouts and simple UI elements, such as navigation menus and form controls. Flexbox provides a flexible and efficient way to align and distribute space among elements, and it is easy to use and understand.
+                
+                Grid, on the other hand, is used to create two-dimensional layouts, where elements are arranged in a grid of rows and columns. It is best suited for larger-scale layouts and complex UI elements, such as grids of images and tables. Grid provides a powerful and flexible way to align and distribute space among elements, and it allows for more advanced layout options and control over grid lines.
+                
+                In summary, Flexbox is good for one dimensional layout and Grid is good for two dimensional layout.
+            </div>
           </div>
+
+          <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+            <div class="collapse-title text-xl font-medium bg-base-200">
+              What is the purpose of mediaquery?
+            </div>
+            <div class="collapse-content bg-base-200">
+              <p class="max-w-screen-sm">A media query is a CSS technique that allows you to apply different styles to a webpage based on the characteristics of the device displaying it. This allows you to create responsive designs that adapt to the screen size, resolution, and other features of the device. 
+
+                Media queries can test for a wide range of conditions, such as screen width, screen height, screen resolution, screen aspect ratio, device type, and more. These conditions can be combined using logical operators such as and, not, and only.
+                
+                Media queries can be used in CSS to change the layout and styling of a webpage based on the screen size, resolution, and other features of the device that it is being viewed on. This allows for responsive design, where the layout and design of the webpage automatically adapts to the screen size and resolution.
+                
+                In summary, the purpose of media query is to apply different styles to a webpage based on the characteristics of the device displaying it, like screen size, resolution, and other features, in order to achieve responsive design.</p>
+            </div>
+          </div>
+          <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+            <div class="collapse-title text-xl font-medium bg-base-200 ">
+              What is css box model and how does it works?
+            </div>
+            <div class="collapse-content bg-base-200">
+              <p class="max-w-screen-sm">The CSS box model is a way of defining the layout and dimensions of elements on a webpage. It defines the size and position of an element's content, padding, borders, and margins.
+
+                Each HTML element on a webpage is considered a rectangular box, with content at the center, surrounded by optional padding, borders, and margins. The CSS box model is used to specify the size and position of these boxes, and how they interact with other elements on the page.
+                
+                In summary, The CSS box model is a layout model in CSS that defines the size and position of an element's content, padding, borders, and margins. It allows developers to control the spacing and position of elements on a webpage and to create responsive designs. It's important to note that the width and height of an element include the content, padding, borders, and margins, but this can be changed with the box-sizing property.</p>
+            </div>
+          </div>
+          <div tabindex="0" class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box">
+            <div class="collapse-title text-xl font-medium bg-base-200">
+              What is semantic tag with example?
+            </div>
+            <div class="collapse-content bg-base-200">
+              <p class="max-w-screen-sm">Semantic tags are HTML tags that provide meaning and context to the content they enclose. They help search engines and other software to understand the structure and content of a webpage, making it easier to index and interpret.
+                header>: This tag is used to enclose the header section of a webpage, which typically includes the site title, logo, and main navigation.
+                nav>: This tag is used to enclose the navigation section of a webpage, which typically includes links to other pages on the site.
+                These are just a few examples of semantic tags, but there are many more. Using semantic tags can make your HTML more readable and understandable for both humans and machines, and it can also improve accessibility and SEO.
+              </p>
+            </div>
+          </div>
+
+        </div>
+        <div>
+          <img src="./images/faq.png" alt="">
         </div>
       </div>
-    </div>
-  </footer>
-  </body>
+      <!-- QNA Section end  -->
+
+
+      <!-- <footer> -->
+      <footer class=" p-10 bg-black text-white ">
+        <div class="footer max-w-screen-xl mx-auto">
+          <div>
+            <span class="footer-title"><img src="./images/logo.png" alt=""></span>
+            <a class="link link-hover leading-7	">Don't be scared. The things out there <br> that are unknown aren't
+              scary in <br> themselves. They are just unknown <br> at the moment. Take the time to <br> know them before
+              you list them as scary.</a>
+          </div>
+          <div>
+            <span class="footer-title">Usefull Link</span>
+            <a class="link link-hover">About us</a>
+            <a class="link link-hover">Contact</a>
+            <a class="link link-hover">Jobs</a>
+            <a class="link link-hover">Press kit</a>
+          </div>
+          <div>
+            <span class="footer-title">Contact Now</span>
+            <a class="link link-hover">Terms of use</a>
+            <a class="link link-hover">Privacy policy</a>
+            <a class="link link-hover">Cookie policy</a>
+          </div>
+          <div>
+            <span class="footer-title">Subscribe</span>
+            <div class="form-control w-80">
+              <p class="label-text text-white leading-7 pb-5">Subscribe for our latest & Articles. We Won’t Give You
+                Spam Mails</p>
+              <label class="label">
+                <span class="label-text text-white">Enter your email address</span>
+              </label>
+              <div class="relative">
+                <input type="text" placeholder="Enter your email address" class="input input-bordered w-full pr-16" />
+                <p class="btn btn-primary absolute top-0 right-0 rounded-l-none">
+                  <img src="./images/email.png" alt="">
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
 </html>
